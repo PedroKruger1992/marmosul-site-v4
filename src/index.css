@@ -5,4 +5,14 @@
    --color-verde: #CAD178;
    --color-cinza: #999999;
    --font-sans: 'Inter Variable', sans-serif;
-   }
+   --animate-surgir: surgir 0.7s ease-out both;
+   --animate-espacar: espacar 1.2s ease-out both;
+   --animate-moldura: moldura 1s ease-out both;
+   --animate-brilho: brilho 1.2s ease-out both;
+   @keyframes surgir { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+   @keyframes espacar { from { opacity: 0; letter-spacing: 0.1em; } to { opacity: 1; letter-spacing: 0.5em; } }
+   @keyframes moldura { from { opacity: 0; transform: translate(16px, -16px); } to { opacity: 1; transform: none; } }
+   @keyframes brilho { from { transform: translateX(-150%) skewX(-20deg); } to { transform: translateX(350%) skewX(-20deg); } }
+}
+   @keyframes deriva { to { transform: translateY(-10%) scale(1.08); } }
+   @media (prefers-reduced-motion: no-preference) { @supports (animation-timeline: scroll()) { .marmore-parallax { animation: deriva linear both; animation-timeline: scroll(); } } }
