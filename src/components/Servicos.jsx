@@ -7,7 +7,7 @@ const Servicos = () => {
 
   return (
     <section id="servicos" className="scroll-mt-24 bg-white">
-      <div className="max-w-6xl mx-auto px-4 py-16 md:py-24">
+      <div className="max-w-6xl mx-auto px-4 pt-8 pb-16 md:pt-10 md:pb-20">
         <h2 className="text-center text-4xl md:text-5xl font-bold text-gray-900">Nossos Serviços</h2>
         <ul className="mt-12 flex flex-wrap justify-center gap-8">
           {servicos.map((servico) => (
