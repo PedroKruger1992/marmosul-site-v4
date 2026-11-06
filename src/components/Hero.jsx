@@ -1,6 +1,3 @@
-import fachada640 from '../assets/fachada-640.webp';
-import fachada800 from '../assets/fachada-800.webp';
-import fachada1200 from '../assets/fachada-1200.webp';
 import marmore from '../assets/marmore-dourado.webp';
 import { WHATSAPP_URL } from '../data/contato';
 
@@ -40,8 +37,8 @@ const Hero = () => {
         <div className="relative pb-4 pl-4">
           <div aria-hidden="true" className="absolute top-4 right-4 bottom-0 left-0 rounded border border-dourado motion-safe:animate-moldura [animation-delay:500ms]" />
           <img
-            src={fachada1200}
-            srcSet={`${fachada640} 640w, ${fachada800} 800w, ${fachada1200} 1200w`}
+            src="/fachada-1200.webp"
+            srcSet="/fachada-640.webp 640w, /fachada-800.webp 800w, /fachada-1200.webp 1200w"
             sizes="(min-width: 1152px) 560px, (min-width: 768px) 50vw, 100vw"
             width="1200"
             height="670"
