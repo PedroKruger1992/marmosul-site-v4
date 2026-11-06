@@ -1,4 +1,4 @@
-import logo from '../assets/logo-marmosul.webp';
+import logo from '../assets/logo-menu.webp';
 import { useState } from 'react';
 
 const links = [
@@ -18,7 +18,7 @@ const Header = () => {
         <span aria-hidden="true" className="pointer-events-none absolute inset-y-0 left-0 w-1/3 -translate-x-[150%] bg-white/50 motion-safe:animate-brilho [animation-delay:600ms]" />
         <span aria-hidden="true" className="pointer-events-none absolute inset-y-0 left-0 w-1/3 -translate-x-[150%] bg-white/50 motion-safe:group-hover:animate-brilho" />
         <a href="#inicio">
-          <img src={logo} alt="Marmosul Pelotas" width="600" height="303" className="h-11 w-auto" />
+          <img src={logo} alt="Marmosul Pelotas" width="264" height="133" className="h-11 w-auto" />
         </a>
         <nav aria-label="Menu principal" className="hidden md:block">
           <ul className="flex gap-8">
