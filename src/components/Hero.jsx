@@ -1,4 +1,3 @@
-import React from 'react';
 import fachada640 from '../assets/fachada-640.webp';
 import fachada1200 from '../assets/fachada-1200.webp';
 import marmore from '../assets/marmore-dourado.webp';
