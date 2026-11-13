@@ -5,6 +5,7 @@ import Servicos from './components/Servicos';
 import Portfolio from './components/Portfolio';
 import Contato from './components/Contato';
 import Footer from './components/Footer';
+import WhatsAppFlutuante from './components/WhatsAppFlutuante';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Contato />
       </main>
       <Footer />
+      <WhatsAppFlutuante />
     </>
   );
 }
