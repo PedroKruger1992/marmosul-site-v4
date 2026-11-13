@@ -2,6 +2,7 @@
 export const WHATSAPP_NUMERO = '555332732106';
 export const WHATSAPP_MENSAGEM = 'Olá! Vim pelo site e gostaria de um orçamento.';
 export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMERO}?text=${encodeURIComponent(WHATSAPP_MENSAGEM)}`;
+
 export const TELEFONE = '(53) 3273-2106';
 export const TELEFONE_LINK = 'tel:+555332732106';
 
