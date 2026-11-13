@@ -1,13 +1,6 @@
 import logo from '../assets/logo-menu.webp';
 import { useState } from 'react';
-
-const links = [
-  { href: '#inicio', label: 'Início' },
-  { href: '#quem-somos', label: 'Quem Somos' },
-  { href: '#servicos', label: 'Serviços' },
-  { href: '#portfolio', label: 'Portfólio' },
-  { href: '#contato', label: 'Contato' }
-];
+import { links } from '../data/navegacao';
 
 const Header = () => {
   const [aberto, setAberto] = useState(false);
