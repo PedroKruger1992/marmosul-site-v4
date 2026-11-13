@@ -4,6 +4,7 @@ import QuemSomos from './components/QuemSomos';
 import Servicos from './components/Servicos';
 import Portfolio from './components/Portfolio';
 import Contato from './components/Contato';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Portfolio />
         <Contato />
       </main>
+      <Footer />
     </>
   );
 }

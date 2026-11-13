@@ -55,12 +55,12 @@ function Contato() {
         </div>
         <div className="relative pt-4 pr-4">
           <div aria-hidden="true" className="absolute top-0 right-0 bottom-4 left-4 border border-dourado" />
-          <div className="relative aspect-[4/5] overflow-hidden bg-[#ece7de]">
+          <div className="relative aspect-[4/5] overflow-hidden bg-[#ece7de] bg-[linear-gradient(#ddd5c6_2px,transparent_2px),linear-gradient(90deg,#ddd5c6_2px,transparent_2px)] bg-[size:48px_48px]">
             {mapaAberto ? (
               <iframe src={MAPA_EMBED} title="Mapa com a localização da Marmosul" className="h-full w-full border-0" loading="lazy" referrerPolicy="no-referrer-when-downgrade" allowFullScreen />
             ) : (
               <div className="flex h-full flex-col items-center justify-center gap-4">
-                <LuMapPin aria-hidden="true" className="h-9 w-9 text-vermelho" />
+                <LuMapPin aria-hidden="true" className="h-9 w-9 text-vermelho motion-safe:animate-bounce" />
                 <button type="button" onClick={() => setMapaAberto(true)} className="border border-dourado bg-white/85 px-5 py-2.5 text-xs uppercase tracking-[0.25em] text-azul transition-colors hover:bg-dourado hover:text-gray-900">Ver no mapa</button>
                 <a href={MAPA_LINK} target="_blank" rel="noopener noreferrer" className="text-xs text-gray-600 underline underline-offset-4 hover:text-vermelho">Abrir no Google Maps</a>
               </div>
